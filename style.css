@@ -17,7 +17,8 @@ body{
 }
 
 #container{
-  padding: 88px 80px 65px;
+  margin: 88px auto 65px;
+  width: 1120px;
 }
 
 #titlepage{
@@ -47,6 +48,9 @@ h2{
   margin-bottom: 64px;
 }
 
+img{
+  border-radius: 28px;
+}
 
 #imgdescription img{
   margin-bottom: 24px;
@@ -56,6 +60,7 @@ h2{
   font-size: 16px;
   line-height: 22px;
   font-style: italic;
+  text-align: center;
 }
 
 #introduction{
@@ -94,7 +99,7 @@ h3{
 
 ul{
   font-weight: bold;
-  padding-left: 25px;
+  padding-left: 27px;
 }
 
 .card:last-child li:last-child{
@@ -113,8 +118,21 @@ li{
   color: #0C51A7;  
 }
 
+ul li::marker{
+  color: #333333;
+}
+
+#description{
+  text-align: center;
+}
 
 footer{
   font-family: "Alice", serif;
   text-align: center;
+  width: 1120px;
+  margin: 0 auto 48px;
+}
+
+footer img{
+  vertical-align: middle;
 }
