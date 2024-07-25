@@ -5,6 +5,13 @@
   border: 0;
 }
 
+:root{
+  font-family: "Open Sans", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 22px;
+}
+
 body{
   background: #F5F4F0;
 }
@@ -17,11 +24,25 @@ body{
   margin-bottom: 40px;
 }
 
-#titlepage h3{
+h4{
+  color: #E1624F;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+#titlepage h4{
   margin-bottom: 8px;
 }
 
+h2{
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .line{
+  width: 1120px;
+  border: 1px solid #D9D9D9;
   margin-top: 40px;
   margin-bottom: 64px;
 }
@@ -31,19 +52,28 @@ body{
   margin-bottom: 24px;
 }
 
+#imgdescription p{
+  font-size: 16px;
+  line-height: 22px;
+  font-style: italic;
+}
+
 #introduction{
   margin-bottom: 64px;
 }
 
-#introduction h3{
+#introduction h4{
   margin-bottom: 2px;
 }
 
 h1{
-  margin-bottom: 8px;
+  margin-bottom: 40px;
+  font-size: 36px;
+  line-height: 49px;
+  color: #1B1B1B;
 }
 
-h2{
+h3{
   margin-bottom: 4px;
 }
 .card{
@@ -56,9 +86,35 @@ h2{
 
 .card img{
   margin-bottom: 20px;
-
 }
 
 #content .line {
   margin-bottom: 40px;
+}
+
+ul{
+  font-weight: bold;
+  padding-left: 25px;
+}
+
+.card:last-child li:last-child{
+  color: #E95E10;
+}
+
+.card:last-child li:first-child{
+  color: #591B98;
+}
+
+.card:last-child li + li{
+  color: #E5245E;
+}
+
+li{
+  color: #0C51A7;  
+}
+
+
+footer{
+  font-family: "Alice", serif;
+  text-align: center;
 }
